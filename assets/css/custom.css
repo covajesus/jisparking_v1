@@ -1,0 +1,63 @@
+.header-logo img {
+    width: 80px; /* Establece el ancho específico o usa un porcentaje */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.desc-content {
+    font-size: 12px !important;
+}
+
+.hero-slide-content > h3 {
+    font-size: 55px !important;
+    color: white !important;
+}
+
+.hero-slide-content > p {
+    font-size: 18px !important;
+    color: white !important;
+}
+
+.footer-logo > a > img {
+    width: 150px; /* Establece el ancho específico o usa un porcentaje */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo a {
+    display: inline-block;
+}
+
+.section-margin {
+    margin-top: 40px !important;
+}
+
+.client-header {
+    margin-top: 40px !important;
+}
+
+.breadcrumb-area {
+    background-color: #0a2787 !important;
+}
+
+.breadcrumb-content > .title {
+    color: white !important;
+}
+
+.breadcrumb-content > ul > li > a {
+    color: white !important;
+}
+
+.breadcrumb-content > ul > li.active {
+    color: #eb7406 !important;
+}
+
+
+/* Media query para pantallas móviles */
+@media (max-width: 768px) {
+    .hero-slide-content > h3 {
+        font-size: 30px !important; /* Ajusta el tamaño del texto en pantallas pequeñas */
+    }
+}
